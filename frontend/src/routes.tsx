@@ -11,7 +11,7 @@ const Routes = () => {
                         <p className="text-6xl text-blue-500 p-2">
                             My React Boilerplate
                         </p>
-                        <p className="2xl p-4">
+                        <p className="text-2xl p-4">
                             with pre-configured ESLint, Prettier, lint-staged
                             and Husky
                         </p>
