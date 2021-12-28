@@ -17,6 +17,6 @@
         "jsx": "react-jsx",
         "baseUrl": "src"
     },
-    "include": ["./src/**/*", "src", "tsconfig.paths.json"],
+    "include": ["./src/**/*", "src"],
     "exclude": ["node_modules"]
 }
