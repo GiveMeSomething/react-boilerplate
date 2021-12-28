@@ -16,7 +16,7 @@ jobs:
             - name: Setup Node.js environment
               uses: actions/setup-node@v2.4.1
               with:
-                  node-version: 12.x
+                  node-version: 14
 
             # TODO: Need to read more why we should add this yarn cache thingy
             - name: Get yarn cache directory path
