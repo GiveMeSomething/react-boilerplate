@@ -80,12 +80,6 @@ You can use it to lint your commit messages, run tests, lint code, etc... when y
 
 [Go To Documentation](https://typicode.github.io/husky/#/)
 
-### **React Markdown** (To load this docs 🙂)
-
-React component to render markdown.
-
-[Go To Documentation](https://github.com/remarkjs/react-markdown)
-
 # License
 
 MIT

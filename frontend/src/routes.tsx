@@ -6,7 +6,9 @@ const Routes = () => {
         <Router>
             <Switch>
                 <Route path="/">
-                    <h1>Hello World</h1>
+                    <div className="w-screen h-screen flex items-center justify-center">
+                        <h1>Hello World</h1>
+                    </div>
                 </Route>
             </Switch>
         </Router>
