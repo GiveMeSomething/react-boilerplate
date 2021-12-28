@@ -1,0 +1,16 @@
+__generated__
+storybook-static
+
+# npm
+node_modules
+# next.js build files
+.next
+# environment variables
+
+package-lock.json
+*.log
+*.gz
+
+.vscode
+
+build

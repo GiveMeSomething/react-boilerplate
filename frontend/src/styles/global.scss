@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h1 {
+        @apply text-3xl;
+    }
+    h2 {
+        @apply text-2xl;
+    }
+    h3 {
+        @apply text-xl;
+    }
+}
+
+html,
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans',
+        sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        'Noto Color Emoji';
+}
+
+i .icon {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container {
+    @apply w-4/5 mx-auto;
+}
+
+.fullscreen {
+    @apply w-screen h-screen min-h-screen;
+}
+
+.fullsize {
+    @apply w-full h-full;
+}
+
+/* Override Semantic UI Modal styles */
+.ui.top.dimmer {
+    background: none !important;
+    padding: 0 !important;
+}
+
+.sidebar-dropdown-item__active {
+    @apply bg-slack-sidebar-focus text-gray-50;
+}
+
+.sidebar-dropdown-item__inactive {
+    @apply hover:bg-slack-sidebar-hover text-gray-500;
+}
+
+.sidebar-dropdown-item__inactive .current-indicator {
+    @apply text-slack-searchbar;
+}
+
+/* Custom search bar modal */
+#custom__modal .ui.tiny.modal {
+    margin: 0 !important;
+}
+
+#custom__modal input:focus {
+    outline: none !important;
+}
+
+#custom__modal.modal {
+    // Equal to mt-2
+    margin: 0.5rem 0 0 0 !important;
+    width: 65% !important;
+}
+
+#message-panel__content {
+    max-height: 70vh;
+}
+
+#member-panel__content {
+    max-height: 85vh;
+}
+
+/* Custom basic button styles */
+// Override semantic ui style
+#custom-no-outline-button {
+    box-shadow: none !important;
+}
+
+// Keep semantic ui style when hover
+#custom-no-outline-button:hover {
+    box-shadow: 0 0 0 1px inset !important;
+}
+
+/* Meta panel custom styles */
+.meta-panel__item {
+    @apply hover:bg-gray-200 cursor-pointer;
+}
+
+.meta-panel__danger {
+    @apply hover:bg-red-600 hover:text-white cursor-pointer;
+}
+
+/* Channel options menu styles */
+#channel-settings .item {
+    @apply hover:text-white hover:bg-slack-sidebar-focus font-normal;
+}
+
+#message-user-settings .item {
+    @apply hover:text-white hover:bg-slack-sidebar-focus font-normal text-lg leading-none px-4 my-2;
+}
+
+#message-user-settings .divider {
+    @apply m-0;
+}
+
+.typing-loader__dot {
+    @apply rounded-full bg-slack-text-blur float-left mx-1 opacity-0 h-2 w-2;
+    animation: typingFade 1s infinite;
+}
+
+.typing-loader__dot:nth-child(1) {
+    animation-delay: 0;
+}
+.typing-loader__dot:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.typing-loader__dot:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes typingFade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 0;
+    }
+}
