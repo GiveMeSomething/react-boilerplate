@@ -32,7 +32,7 @@ yarn start
         -   `redux`: Contains Redux's store and Redux's hooks
     -   `index.tsx`: App entry
     -   `routes.tsx`: Contains app's url mapping (using React Router)
-    -   And a lot of config, including `craco` , `ESLint`, `Prettier`, `TailwindCSS`, ...
+    -   And a lot of config, including `ESLint`, `Prettier`, `TailwindCSS`, ...
 
 ## Tools used
 
