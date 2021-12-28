@@ -8,8 +8,12 @@ const Routes = () => {
             <Switch>
                 <Route path="/">
                     <div className="w-screen h-screen container flex flex-col items-center justify-center">
-                        <p className="text-6xl text-blue-500 p-6">
+                        <p className="text-6xl text-blue-500 p-2">
                             My React Boilerplate
+                        </p>
+                        <p className="2xl p-4">
+                            with pre-configured ESLint, Prettier, lint-staged
+                            and Husky
                         </p>
                         <div className="grid grid-cols-3 gap-4">
                             <div className="border-2 border-blue-300 rounded-2xl">
