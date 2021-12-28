@@ -36,12 +36,6 @@ yarn start
 
 ## Tools used
 
-### **CRACO**
-
-Create React App Configuration Override is an easy and comprehensible configuration layer for create-react-app.
-
-[Go To Documentation](https://github.com/gsoft-inc/craco)
-
 ### **TailwindCSS**
 
 A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
